@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="#ff9999"
-            android:fontFamily="@font/lobster_two"
+            android:fontFamily="@font/audiowide"
             android:text="@string/about_google_developer_groups"
             android:textAllCaps="true"
             android:textColor="#555555"
@@ -57,6 +57,7 @@
             android:text="@string/gdgs_are"
             android:textSize="18sp"
             android:textColor="#555555"
+            android:fontFamily="@font/audiowide"
             app:layout_constraintEnd_toStartOf="@id/end_grid"
             app:layout_constraintStart_toEndOf="@id/start_grid"
             app:layout_constraintTop_toBottomOf="@+id/intro_text" />
