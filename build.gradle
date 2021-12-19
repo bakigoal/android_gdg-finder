@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        version_gradle = '7.0.4'
+        version_kotlin = "1.6.10"
+        version_navigation = '2.3.5'
+        version_core = "1.7.0"
+        version_compat = "1.4.0"
+        version_material = "1.4.0"
+        version_constraint_layout = "2.1.2"
+        version_lifecycle = "2.4.0"
+        version_lifecycle_extensions = "2.2.0"
+        version_recyclerview = "1.2.1"
+
+        version_glide = "4.8.0"
+        version_moshi = "1.9.3"
+        version_retrofit = "2.9.0"
+        version_kotlin_coroutines = "1.6.0-RC2"
+        version_retrofit_coroutines_adapter = "0.9.2"
+
+        version_material = "1.6.0-alpha01"
+        version_play_services = "19.0.0"
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$version_gradle"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$version_kotlin"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$version_navigation"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
